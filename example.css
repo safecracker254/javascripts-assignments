@@ -1,0 +1,31 @@
+*{
+    margin: 10px 0 ;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+}
+.clock-container{
+    background:#080122 ;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 2cm;
+}
+.greeting-text{
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-weight: 750;
+    color: chartreuse;
+}
+
+#day{
+    color: blueviolet;
+}
+#date ,#month , #year{
+    color: aqua;
+}
